@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bilred.xml" value="0.39444444444444443" />
+        <entry key="app/src/main/res/drawable/ripple.xml" value="0.38796296296296295" />
+        <entry key="app/src/main/res/drawable/round_button.xml" value="0.39444444444444443" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_gamelist.xml" value="0.403125" />
+        <entry key="app/src/main/res/layout/activity_informations.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.403125" />
+        <entry key="app/src/main/res/layout/activity_open_source.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_play.xml" value="0.403125" />
+        <entry key="app/src/main/res/layout/activity_player.xml" value="0.3704710144927536" />
+        <entry key="app/src/main/res/layout/activity_setting.xml" value="0.33" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.375" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3527777777777778" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

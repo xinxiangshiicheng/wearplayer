@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.PlayerActivity"
+    android:background="@color/black"
+    android:onClick="showcon">
+
+    <LinearLayout
+        android:id="@+id/Topcontrol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#348A8A8A"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/showtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/downloadprogress"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ProgressBar
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#676A6D"
+                android:textSize="10dp"
+                android:id="@+id/downedprogess"
+                />
+        </LinearLayout>
+
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <RelativeLayout
+            android:id="@+id/realtive"
+            android:layout_width="1px"
+            android:layout_height="1px"
+            >
+
+            <TextureView
+                android:id="@+id/textureview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"
+        android:id="@+id/showsound"
+        android:visibility="gone"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:id="@+id/Bottomcontrol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#348A8A8A"
+        android:orientation="vertical">
+        <SeekBar
+            android:id="@+id/videoprogress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:thumb="@mipmap/bluetv" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="8dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="cutsound"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:src="@mipmap/soundcut"/>
+
+            <TextView
+                android:id="@+id/timenow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="00:00"
+                android:layout_marginRight="15dp"
+                android:textColor="#D3B8BDBF" />
+
+            <Button
+                android:id="@+id/control"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/round_button"
+                android:onClick="controlvideo"
+                android:text="‣"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/alltime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:text="00:00"
+                android:textColor="#D3B8BDBF" />
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="addsound"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/soundadd"
+                android:background="?attr/selectableItemBackground"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
