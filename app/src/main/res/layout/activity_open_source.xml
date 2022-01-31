@@ -29,6 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:textSize="20sp"
                 android:layout_marginTop="10dp"
                 android:text="此项目完全开源"/>
             <TextView
@@ -41,8 +42,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="github地址:https://github.com/xinxiangshiicheng/wearplayer.git"/>
+            <ImageView
+                android:layout_width="300px"
                 android:layout_marginTop="10dp"
-                android:text="github地址:"/>
+                android:layout_height="300px"
+                android:src="@mipmap/github_address"
+                android:layout_gravity="center"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
